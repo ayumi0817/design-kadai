@@ -1,0 +1,82 @@
+h1, p, #bodyy{
+    margin: 0px 0px;
+}
+
+#headerr{
+    margin:0 0 20px 0;
+    background-color:rgb(244, 79, 79);
+    text-align: center;
+}
+
+h1{
+    color:rgb(255, 255, 255);
+}
+
+#main{
+    margin: 10px 10px 10px 10px;
+}
+
+#parent{
+    display:flex;
+    justify-content:space-around;
+}
+
+.contents{
+    border: solid 3px rgb(238, 204, 204);
+    flex-basis:25%;
+    padding: 10px 15px 10px 15px;
+    margin: 20px 0 20px 0;
+    text-align:center;
+}
+
+h2{
+    font-size: 25px;
+    border-bottom: dotted 3px rgb(236, 122, 122);
+}
+
+h2::before{
+    content:"●";
+    color:rgb(239, 111, 139);
+}
+
+.kasa::first-letter{
+    font-weight:bold;
+    color:rgb(97, 206, 249);
+}
+
+.contents:nth-child(4){
+    margin: 10px 0;
+    width: 70%;
+}
+
+#footerr{
+    background-color:rgb(244, 79, 79);
+    text-align:center;
+}
+
+#fotterr > h1{
+    color: rgb(255, 255, 255);
+}
+
+#fotterr > h1:visited{
+    color:rgb(193, 234, 251);
+}
+
+#fotterr > h1:hover{
+    color:rgb(245, 178, 168);
+}
+
+@media screen and (max-wodth:768px){
+    h2{
+        font-size:30px;
+    }
+    p{
+        font-size:25px;
+    }
+    #parent{
+        display: flex;
+        flex-wrap:wrap;
+    }
+}
+
+
