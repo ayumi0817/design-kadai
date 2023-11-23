@@ -1,3 +1,5 @@
+
+
 h1, p, #bodyy{
     margin: 0px 0px;
 }
@@ -66,7 +68,7 @@ h2::before{
     color:rgb(245, 178, 168);
 }
 
-@media screen and (max-wodth:768px){
+@media screen and (max-width:768px){
     h2{
         font-size:30px;
     }
@@ -75,8 +77,12 @@ h2::before{
     }
     #parent{
         display: flex;
-        flex-wrap:wrap;
+        flex-direction: column;
     }
+}
+
+a, p {
+    font-size: 20px;
 }
 
 
