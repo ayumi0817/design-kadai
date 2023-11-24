@@ -51,6 +51,10 @@ h2::before{
     width: 70%;
 }
 
+.contents > img{
+   width: 70%; 
+}
+
 #footerr{
     background-color:rgb(244, 79, 79);
     text-align:center;
